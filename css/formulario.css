@@ -1,0 +1,152 @@
+/* FORMULARIO */
+
+#formulario
+{
+    padding: 100px 10px 60px 10px;
+
+    letter-spacing: normal;
+
+    background-image: url(../images/formulario.png);
+    background-position: center;
+    background-size: cover;
+}
+
+#formulario .titulo
+{
+    font-family: 'robotolight';
+    font-size: 45px;
+}
+
+#formulario .descripcion
+{
+    font-family: 'poppinsregular';
+    font-size: 15px;
+
+    display: inline-block;
+
+    width: 290px;
+    margin-bottom: 60px;
+}
+
+#formulario .forma
+{
+    padding: 20px 0;
+}
+
+#formulario form
+{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+#formulario input[type='text']
+{
+    width: 500px;
+    padding: 10px;
+
+    text-align: center;
+
+    border: none;
+    border-bottom: 1px solid #000;
+    background: none;
+}
+
+#formulario input[type='text']:focus
+{
+    outline: 0;
+}
+
+::-webkit-input-placeholder
+{
+    font-family: 'robotoregular';
+
+    text-align: center;
+
+    color: #000;
+}
+
+:-moz-placeholder
+{
+    font-family: 'robotoregular';
+
+    text-align: center;
+
+    color: #000;
+}
+
+::-moz-placeholder
+{
+    font-family: 'robotoregular';
+
+    text-align: center;
+
+    color: #000;
+}
+
+:-ms-input-placeholder
+{
+    font-family: 'robotoregular';
+
+    text-align: center;
+
+    color: #000;
+}
+
+.checkbox
+{
+    display: flex;
+
+    margin: 50px 0;
+
+    align-items: center;
+}
+
+input[type='checkbox']
+{
+    width: 15px;
+    height: 15px;
+    margin: 0 15px 0 0;
+
+    cursor: pointer;
+
+    border: 1px solid #000;
+
+            appearance: none;
+       -moz-appearance: none;
+    -webkit-appearance: none;
+}
+
+input[type='checkbox']:checked
+{
+    background-image: url(../images/checked.png);
+    background-position: center;
+    background-size: cover;
+}
+
+input[type='checkbox']:focus
+{
+    outline: none;
+}
+
+.checkbox span
+{
+    font-family: 'robotoregular';
+    font-size: 14px;
+}
+
+input[type='submit']
+{
+    font-family: 'poppinsregular';
+    font-size: 20px;
+
+    padding: 15px 50px;
+
+    cursor: pointer;
+    letter-spacing: .12em;
+
+    color: #fff;
+    border: none;
+    background-color: #1d1c18;
+}

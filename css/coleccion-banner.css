@@ -1,0 +1,360 @@
+/* BANNER */
+
+#coleccion-banner
+{
+    display: flex;
+
+    margin-bottom: 100px;
+
+    justify-content: space-between;
+}
+
+.banner-izquierda,
+.banner-derecha
+{
+    width: calc(50% - 15px);
+}
+
+.banner-izquierda
+{
+    position: relative;
+
+    height: 600px;
+
+    transition: .25s ease;
+
+    background-image: url(../images/verano.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.banner-izquierda h1
+{
+    font-family: 'robotothin';
+    font-size: 37.5px;
+    line-height: 100px;
+
+    position: absolute;
+    top: calc(50% - 50px);
+
+    display: block;
+
+    height: 100px;
+    padding: 0 35px;
+
+    letter-spacing: .04em;
+
+    background-color: #fff;
+}
+
+.banner-derecha
+{
+    display: flex;
+    flex-direction: column;
+
+    width: calc(50% - 15px);
+
+    justify-content: space-between;
+}
+
+.banner-derecha-superior,
+.banner-derecha-inferior
+{
+    width: 100%;
+    height: 285px;
+}
+
+.banner-derecha-inferior
+{
+    display: flex;
+
+    justify-content: space-between;
+}
+
+.sandalias
+{
+    position: relative;
+
+    width: 100%;
+    height: 100%;
+
+    transition: .25s ease;
+    text-align: left;
+
+    background-color: #f6f6f6;
+    background-image: url(../images/sandalias.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.sandalias h1
+{
+    font-family: 'robotothin';
+    font-size: 46px;
+
+    position: absolute;
+    top: 100px;
+    left: 60px;
+
+    letter-spacing: normal;
+}
+
+.sandalias a
+{
+    font-size: 14px;
+
+    position: absolute;
+    top: 180px;
+    left: 60px;
+
+    display: inline-block;
+
+    padding: 15px 18px;
+
+    text-decoration: none;
+    letter-spacing: .070em;
+
+    color: #967f5f;
+    border: 2px solid #967f5f;
+}
+
+.sandalias a:before
+{
+    position: absolute;
+    top: -2px;
+    left: 8px;
+
+    width: 10px;
+    height: 2px;
+
+    content: '';
+
+    background-color: #f6f6f6;
+}
+
+.sandalias a:after
+{
+    position: absolute;
+    right: 8px;
+    bottom: -2px;
+
+    width: 10px;
+    height: 2px;
+
+    content: '';
+
+    background-color: #f6f6f6;
+}
+
+.oportunidades
+{
+    position: relative;
+
+    width: calc(50% - 15px);
+    height: 100%;
+
+    transition: .25s ease;
+    text-align: center;
+    word-wrap: break-word;
+
+    background-image: url(../images/oportunidades.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.oportunidades h1
+{
+    font-family: 'robotolight';
+    font-size: 29px;
+
+    position: absolute;
+    top: 70px;
+    left: 0;
+
+    width: 100%;
+
+    letter-spacing: .4em;
+}
+
+.oportunidades span
+{
+    font-family: 'poppinsbold';
+    font-size: 18px;
+
+    position: absolute;
+    top: 130px;
+    left: 0;
+
+    width: 100%;
+
+    letter-spacing: .4em;
+}
+
+.oportunidades a
+{
+    font-family: 'poppinsbold';
+    font-size: 12.5px;
+
+    position: absolute;
+    top: 190px;
+    left: 0;
+
+    width: 100%;
+
+    text-decoration: none;
+    letter-spacing: .4em;
+
+    color: #000;
+}
+
+.linea-dorada
+{
+    position: absolute;
+    top: 165px;
+    left: calc(50% - 93px);
+
+    width: 186px;
+    height: 1px;
+
+    background-color: #967f5f;
+}
+
+.noticias
+{
+    position: relative;
+
+    width: calc(50% - 15px);
+    height: 100%;
+
+    transition: .25s ease;
+
+    background-color: #f6f6f6;
+    background-image: url(../images/noticias.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+
+
+.noticias h1
+{
+    font-family: 'robotothin';
+    font-size: 37.5px;
+
+    position: absolute;
+    top: 85px;
+    left: 35px;
+
+    text-align: left;
+    letter-spacing: normal;
+}
+
+.noticias a
+{
+    font-size: 14px;
+
+    position: absolute;
+    top: 165px;
+    left: 35px;
+
+    display: inline-block;
+
+    padding: 15px 18px;
+
+    text-decoration: none;
+    letter-spacing: .070em;
+
+    color: #967f5f;
+    border: 2px solid #967f5f;
+}
+
+.noticias a:before
+{
+    position: absolute;
+    top: -2px;
+    left: 8px;
+
+    width: 10px;
+    height: 2px;
+
+    content: '';
+
+    background-color: #f6f6f6;
+}
+
+.noticias a:after
+{
+    position: absolute;
+    right: 8px;
+    bottom: -2px;
+
+    width: 10px;
+    height: 2px;
+
+    content: '';
+
+    background-color: #f6f6f6;
+}
+
+.banner-izquierda:hover
+{
+    cursor: pointer;
+    transition: .25s ease;
+
+    box-shadow: 0 0 20px #ccc;
+}
+
+.sandalias:hover
+{
+    cursor: pointer;
+    transition: .25s ease;
+
+    box-shadow: 0 0 20px #ccc;
+}
+
+.oportunidades:hover
+{
+    cursor: pointer;
+    transition: .25s ease;
+
+    box-shadow: 0 0 20px #ccc;
+}
+
+.noticias:hover
+{
+    cursor: pointer;
+    transition: .25s ease;
+
+    box-shadow: 0 0 20px #ccc;
+}
+
+
+@media (max-width: 1725px)
+{
+    #coleccion-banner
+    {
+        flex-direction: column;
+    }
+
+    .banner-izquierda
+    {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .banner-derecha
+    {
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .banner-derecha-superior
+    {
+        margin-bottom: 15px;
+    }
+
+    .banner-derecha-inferior
+    {
+        margin-top: 15px;
+    }
+}

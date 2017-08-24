@@ -1,0 +1,115 @@
+/* BANNER */
+
+#banner
+{
+    position: relative;
+
+    margin: 100px 0;
+}
+
+#banner img
+{
+    width: 100%;
+}
+
+.caja
+{
+    font-family: 'poppinsmedium';
+
+    position: absolute;
+    top: calc(50% - 152.5px);
+    left: calc(50% - 345px);
+
+    width: 690px;
+    min-height: 305px;
+
+    letter-spacing: .12em;
+
+    background-color: rgba(255, 255, 255, .8);
+}
+
+.caja h1
+{
+    font-size: 37.5px;
+
+    margin-top: 60px;
+}
+
+.caja span
+{
+    font-size: 13.5px;
+
+    display: block;
+
+    margin-bottom: 20px;
+}
+
+.caja a
+{
+    font-family: 'poppinsregular';
+    font-size: 13.5px;
+
+    position: absolute;
+    bottom: calc(0px - 18px);
+    left: calc(50% - 70px);
+
+    width: 140px;
+    padding: 18px 0;
+
+    cursor: pointer;
+    text-decoration: none;
+
+    color: #fff;
+    border: none;
+    background-color: #1d1c18;
+}
+
+.borde-caja
+{
+    position: absolute;
+    top: calc(50% - 182.5px);
+    left: calc(50% - 375px);
+
+    width: 690px;
+    min-height: 305px;
+    padding: 30px;
+
+    border: 3px solid #fff;
+}
+
+@media (max-width: 1300px)
+{
+    .caja
+    {
+        top: 25%;
+        left: 10%;
+
+        display: flex;
+        flex-direction: column;
+
+        width: 80%;
+        min-height: 50%;
+
+        justify-content: center;
+    }
+
+    .caja > *
+    {
+        margin: 0 auto !important;
+    }
+
+    .caja .forma
+    {
+        padding: 10px 0;
+    }
+
+    .borde-caja
+    {
+        top: calc(25% - 30px);
+        left: calc(10% - 30px);
+
+        width: 80%;
+        min-height: 50%;
+        padding: 30px;
+    }
+}

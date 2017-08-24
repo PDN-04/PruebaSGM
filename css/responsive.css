@@ -1,0 +1,273 @@
+/* ESTILOS RESPONSIVE */
+
+@media (max-width: 1024px)
+{
+    #page-container
+    {
+        margin: 29px 20px;
+    }
+
+    header
+    {
+        left: 0;
+
+        width: calc(100% - 40px)!important;
+        height: initial !important;
+        padding: 0 20px;
+
+        box-shadow: 0 0 10px #ccc;
+
+        flex-wrap: wrap;
+    }
+
+    .boton-menu
+    {
+        width: 50% !important;
+    }
+	
+    nav
+    {
+        width: 50%;
+    }
+	
+	.menu-movil {
+	top: 150px !important;
+	}
+
+    .logo img
+    {
+        width: 150px;
+        padding: 20px 0;
+    }
+
+    .herramientas
+    {
+        width: 100%;
+        padding: 10px 0;
+
+        order: 2 !important;
+    }
+
+    #banner
+    {
+        overflow: hidden;
+
+        margin: 150px 0 100px 0 !important;
+    }
+
+    #banner img
+    {
+        width: initial !important;
+        height: 100%;
+
+        transform: translateX(-25%);
+    }
+
+    .caja
+    {
+        top: 25%;
+        left: 10%;
+
+        display: flex;
+        flex-direction: column;
+
+        width: 80%;
+        min-height: 50%;
+
+        justify-content: center;
+    }
+
+    .borde-caja
+    {
+        top: calc(25% - 7.75px) !important;
+        left: calc(10% - 7.75px) !important;
+
+        width: 80%;
+        min-height: 50%;
+        padding: 5px !important;
+    }
+
+    .lista-catalogo li
+    {
+        display: block !important;
+
+        margin: 30px 0 !important;
+    }
+
+    .lista-catalogo li:after
+    {
+        content: none !important;
+    }
+
+    .producto
+    {
+        width: calc(100% - 20px) !important;
+    }
+
+    .banner-izquierda
+    {
+        display: flex;
+        flex-direction: column;
+
+        align-items: center;
+        justify-content: center;
+    }
+
+    .banner-izquierda h1
+    {
+        line-height: initial !important;
+
+        position: static !important;
+
+        height: initial !important;
+        padding: 10px !important;
+
+        background-color: rgba(255, 255, 255, .5) !important;
+    }
+
+    .sandalias
+    {
+        position: static !important;
+
+        display: flex;
+        flex-direction: column;
+
+        text-align: center !important;
+
+        background-position: center !important;
+
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .sandalias h1
+    {
+        position: static !important;
+
+        padding: 10px;
+
+        background-color: rgba(255, 255, 255, .5);
+    }
+
+    .sandalias a
+    {
+        position: relative !important;
+        top: initial !important;
+        left: initial !important;
+
+        background-color: #fff;
+    }
+
+    .banner-derecha-inferior
+    {
+        flex-direction: column;
+
+        height: 600px !important;
+    }
+
+    .oportunidades
+    {
+        position: static !important;
+
+        display: flex;
+        flex-direction: column;
+
+        width: 100% !important;
+        height: 285px !important;
+
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .oportunidades > *
+    {
+        position: static !important;
+    }
+
+    .linea-dorada
+    {
+        width: 50% !important;
+    }
+
+    .noticias
+    {
+        position: static !important;
+
+        display: flex;
+        flex-direction: column;
+
+        width: 100% !important;
+        height: 285px !important;
+
+        text-align: center !important;
+
+        background-position: center !important;
+
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .noticias h1
+    {
+        position: static !important;
+
+        padding: 10px;
+
+        text-align: center !important;
+
+        background-color: rgba(255, 255, 255, .5);
+    }
+
+    .noticias h1 br
+    {
+        display: none;
+    }
+
+    .noticias a
+    {
+        position: relative !important;
+        top: initial !important;
+        left: initial !important;
+
+        background-color: #fff;
+    }
+
+    .producto-outlet
+    {
+        width: calc(100% - 20px) !important;
+    }
+
+    #formulario
+    {
+        padding: 10px !important;
+    }
+
+    #formulario .titulo
+    {
+        display: block;
+
+        padding: 10px 0;
+    }
+
+    #formulario .descripcion
+    {
+        width: initial !important;
+    }
+
+    #formulario input[type='text']
+    {
+        width: 80% !important;
+    }
+
+    footer ul li
+    {
+        display: block !important;
+
+        margin: 20px 0 !important;
+    }
+
+    footer ul li:after
+    {
+        content: none !important;
+    }
+}

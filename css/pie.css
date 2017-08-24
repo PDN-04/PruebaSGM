@@ -1,0 +1,118 @@
+/* PIE */
+
+footer
+{
+    margin-top: 50px;
+}
+
+footer > *
+{
+    display: block;
+
+    margin: 0 auto;
+}
+
+.informacion > *
+{
+    display: block;
+}
+
+.web
+{
+    font-family: 'poppinsbold';
+    font-size: 12.5px;
+
+    margin: 20px 0;
+
+    letter-spacing: .25em;
+}
+
+.redes
+{
+    margin-bottom: 20px;
+}
+
+.redes a
+{
+    display: inline-block;
+}
+
+.redes img
+{
+    vertical-align: middle;
+}
+
+.informacion
+{
+    font-family: 'robotoregular';
+    font-size: 12.5px;
+
+    letter-spacing: .12em;
+}
+
+.informacion > *
+{
+    margin: 10px;
+}
+
+.contacto
+{
+    margin-bottom: 0;
+}
+
+footer ul li
+{
+    font-family: 'robotoregular';
+    font-size: 10px;
+
+    position: relative;
+
+    display: inline-block;
+
+    margin: 0 20px;
+
+    letter-spacing: .12em;
+}
+
+footer ul li:after
+{
+    position: absolute;
+    top: calc(50% - 4px);
+    left: calc(100% + 20px - .5px);
+
+    display: inline-block;
+
+    width: 1px;
+    height: 8px;
+
+    content: '';
+
+    background-color: #000;
+}
+
+footer ul li:last-child:after
+{
+    content: none;
+}
+
+footer ul li a
+{
+    text-decoration: none;
+
+    color: #000;
+}
+
+footer ul li a:hover
+{
+    border-bottom: 1px solid #000;
+}
+
+.copyright
+{
+    font-family: 'robotoregular';
+    font-size: 10px;
+
+    margin-top: 25px;
+
+    letter-spacing: .12em;
+}

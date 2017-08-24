@@ -1,0 +1,121 @@
+/* OUTLET */
+
+#outlet
+{
+    padding-bottom: 150px;
+
+    border-bottom: 1px solid #967f5f;
+}
+
+#outlet h1
+{
+    font-size: 37.5px;
+}
+
+#catalogo-outlet
+{
+    display: flex;
+
+    width: 75%;
+    margin: 0 auto;
+
+    justify-content: center;
+}
+
+.producto-outlet
+{
+    font-family: 'poppinsbold';
+
+    margin: 10px;
+
+    transition: .25s ease;
+
+    flex: 1 1;
+}
+
+.producto-outlet img
+{
+    width: 100%;
+}
+
+.nombre-producto-outlet
+{
+    font-size: 12.5px;
+
+    display: inline-block;
+
+    width: 100%;
+    margin: 20px 0;
+
+    letter-spacing: normal;
+    text-transform: uppercase;
+}
+
+.precio-producto-outlet
+{
+    font-family: 'open_sansbold';
+
+    display: inline-block;
+
+    width: 100%;
+    margin: 10px 0 60px 0;
+}
+
+.original
+{
+    position: relative;
+
+    color: #858585;
+}
+
+.rebaja
+{
+    position: relative;
+
+    color: #c52020;
+}
+
+.original:before
+{
+    position: absolute;
+    top: calc(50% - .5px);
+    left: calc(50% - 14px - 10px);
+
+    width: 28px;
+    height: 1px;
+
+    content: '';
+    transform: rotate(-25deg);
+
+    background-color: #000;
+}
+
+.separador
+{
+    color: #858585;
+}
+
+.producto-outlet:hover
+{
+    cursor: pointer;
+    transition: .25s ease;
+
+    box-shadow: 0 0 20px #ccc;
+}
+
+@media (max-width: 1300px)
+{
+    #catalogo-outlet
+    {
+        width: 100%;
+
+        flex-wrap: wrap;
+    }
+
+    .producto-outlet
+    {
+        width: calc(50% - 20px);
+
+        flex: initial;
+    }
+}
